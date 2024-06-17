@@ -91,10 +91,11 @@
 			};
 			buildConfigurationList = 92E46DF21B634EA30035CD21 /* Build configuration list for PBXProject "Chapter01-mac" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 92E46DEE1B634EA30035CD21;
 			productRefGroup = 92E46DF81B634EA30035CD21 /* Products */;
@@ -238,15 +239,16 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../external/SDL/include",
 					"$(SRCROOT)/../external/GLEW/include",
+					"$(SRCROOT)/../external/SDL/include",
 					"$(SRCROOT)/../external/SOIL/include",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/../external/GLEW/lib/mac",
-					"$(SRCROOT)/../external/SDL/lib/mac",
 					"$(SRCROOT)/../external/SOIL/lib/mac",
+					"$(SRCROOT)/../external/SDL/lib/mac",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				OTHER_LDFLAGS = (
 					"-lGLEW.2.1.0",
 					"-lSDL2-2.0.0",
@@ -268,15 +270,16 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../external/SDL/include",
 					"$(SRCROOT)/../external/GLEW/include",
+					"$(SRCROOT)/../external/SDL/include",
 					"$(SRCROOT)/../external/SOIL/include",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/../external/GLEW/lib/mac",
-					"$(SRCROOT)/../external/SDL/lib/mac",
 					"$(SRCROOT)/../external/SOIL/lib/mac",
+					"$(SRCROOT)/../external/SDL/lib/mac",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				OTHER_LDFLAGS = (
 					"-lGLEW.2.1.0",
 					"-lSDL2-2.0.0",
